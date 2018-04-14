@@ -1,0 +1,35 @@
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header {
+    background-color: black;
+    height: 50px;
+    border-bottom: 3px solid yellow;
+}
+
+.fixed-body {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .navigation {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.title-text {
+    margin: 0;
+    color: yellow;
+    font-size: 20px;
+}
+
+.important-link {
+    text-transform: uppercase;
+    font-weight: bold;
+}

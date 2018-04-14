@@ -1,0 +1,25 @@
+.button {
+    width: 90%;
+    height: 35px;
+    margin: 30px auto 0 auto;
+    background-color: yellow;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    box-shadow: 4px 4px 8px #888888;
+}
+
+.button.grey {
+    background-color: lightgrey;
+}
+
+.button p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+.photo-container {
+    background-image: url("images/coworking.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.meet-your-match-container {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.meet-your-match {
+    height: 300px;
+    width: 400px;
+    background-color: rgba(255, 255, 255,0.75);
+    padding: 20px 20px;
+    box-sizing: border-box;
+}

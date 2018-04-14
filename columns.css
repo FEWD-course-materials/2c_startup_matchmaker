@@ -1,0 +1,22 @@
+.row-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options-container {
+    width: 900px;
+    display: flex;
+}
+
+.options {
+    height: 250px;
+    width: 33%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.right-border {
+    border-right: 1px solid grey;
+}
